@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34902.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ltmonster.AspNetCore.DynamicMiddleware", "Ltmonster.AspNetCore.DynamicMiddleware\Ltmonster.AspNetCore.DynamicMiddleware.csproj", "{D8FEDA65-8B90-487A-A447-5CE35C9390E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationTest", "WebApplicationTest\WebApplicationTest.csproj", "{E5E3B4CB-3A76-4233-8967-ADEC4B3DDF1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8FEDA65-8B90-487A-A447-5CE35C9390E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FEDA65-8B90-487A-A447-5CE35C9390E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FEDA65-8B90-487A-A447-5CE35C9390E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FEDA65-8B90-487A-A447-5CE35C9390E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E3B4CB-3A76-4233-8967-ADEC4B3DDF1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E3B4CB-3A76-4233-8967-ADEC4B3DDF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E3B4CB-3A76-4233-8967-ADEC4B3DDF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E3B4CB-3A76-4233-8967-ADEC4B3DDF1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20740CC0-BA06-4E57-9883-AD104FDD41E5}
+	EndGlobalSection
+EndGlobal
