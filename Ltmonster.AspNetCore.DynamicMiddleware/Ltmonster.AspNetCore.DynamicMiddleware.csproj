@@ -11,6 +11,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/lt-monster/Ltmonster.AspNetCore.DynamicMiddleware</RepositoryUrl>
     <PackageIcon>DynamicMiddleware.logo.png</PackageIcon>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
