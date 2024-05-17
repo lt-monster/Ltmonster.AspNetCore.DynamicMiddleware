@@ -3,7 +3,7 @@
 ## 🚩 Ltmonster.AspNetCore.DynamicMiddleware
 
 [![Nuget downloads](https://img.shields.io/badge/nuget-v1.0.1-blue)](https://www.nuget.org/packages/Ltmonster.AspNetCore.DynamicMiddleware/)
-[![Nuget](https://img.shields.io/badge/downloads-0M-1afa29)](https://www.nuget.org/packages/Ltmonster.AspNetCore.DynamicMiddleware/)
+[![Nuget](https://img.shields.io/badge/downloads-135-1afa29)](https://www.nuget.org/packages/Ltmonster.AspNetCore.DynamicMiddleware/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/lt-monster/Ltmonster.AspNetCore.DynamicMiddleware/blob/main/LICENSE)
 
 This is a plugin that supports the dynamic manipulation of middleware while the application is running.
@@ -41,7 +41,7 @@ app.UseDynamicMiddleware()
     .InstallPlugin<Plugin1>("Plugin1", "This is the first plugin");
 ```
 
-Finally, to control the plugin by DynamicMiddlewareContainer
+Finally, if you need to control at runtime dynamic middleware, please use DynamicMiddlewareContainer
 ```csharp
 var container = app.ApplicationServices.GetRequiredService<DynamicMiddlewareContainer>();
 
