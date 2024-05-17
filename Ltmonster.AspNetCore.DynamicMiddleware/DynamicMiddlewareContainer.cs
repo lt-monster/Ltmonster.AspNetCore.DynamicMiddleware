@@ -85,4 +85,18 @@ public sealed class DynamicMiddlewareContainer
             plugin.Enable = false;
         }
     }
+
+    /// <summary>
+    /// Set plugin order
+    /// </summary>
+    /// <param name="pluginName"></param>
+    /// <param name="order"></param>
+    public void SetPluginOrder(string pluginName, int order)
+    {
+        DynamicMiddlewareConfig? plugin = plugins.FirstOrDefault(p => p.Name == pluginName);
+        if (plugin != null)
+        {
+            plugin.Order = order;
+        }
+    }
 }
