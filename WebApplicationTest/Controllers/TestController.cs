@@ -33,4 +33,11 @@ public class TestController(DynamicMiddlewareContainer container) : ControllerBa
         container.DisablePlugin(pluginName);
         return Ok(true);
     }
+
+    [HttpGet]
+    public IActionResult SetPluginOrder(string pluginName, int order)
+    {
+        container.SetPluginOrder(pluginName, order);
+        return Ok(true);
+    }
 }
