@@ -47,4 +47,5 @@ var container = app.ApplicationServices.GetRequiredService<DynamicMiddlewareCont
 
 container.EnablePlugin("Plugin1");
 container.DisablePlugin("Plugin1");
+container.SetPluginOrder("Plugin1", 10);
 ```
